@@ -1,18 +1,18 @@
 @charset "UTF-8";
 
-ul.menu{
+ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #20BF55;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-li.menu {
+li{
     float: left;
     margin-left: 5px;
 }
 
-li a.menu {
+li a{
     display: block;
     color: black;
     text-align: center;
@@ -22,7 +22,7 @@ li a.menu {
 
 }
 
-li a:hover.menu {
+li a:hover {
     background-color: #14591D;
     color: white;
 }
