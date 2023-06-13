@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
+* {
+    margin: 0%
+}
+
 header {
-    background-color: #14591D;
+    background-color: #B22234;
     color: white;
     padding: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif
@@ -29,16 +33,16 @@ footer {
 .listaItem {
     padding: 8px;
     margin-top: 7px;
-    border-bottom: 1px solid #20BF55;
+    border-bottom: 1px solid #3C3B6E;
 }
 
 .listaItem a {
     text-decoration: none;
-    color: #14591D;
+    color: #B22234;
 }
 
 .listaItem a:hover {
-    color: #20BF55;
+    color: #3C3B6E;
 }
 
 .meio {
@@ -50,7 +54,7 @@ footer {
 }
 
 .direita {
-    background-color: #20BF55;
+    background-color: #3C3B6E;
     float: left;
     width: 20%;
     padding: 10px 15px;
