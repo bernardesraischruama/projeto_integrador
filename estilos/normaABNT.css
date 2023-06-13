@@ -28,7 +28,7 @@ body {
 header {
     background-color: #B22234;
     color: white;
-    padding: 15px;
+    padding: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -37,6 +37,7 @@ header h1 {
 }
 
 .menu ul {
+    padding: 20px;
     list-style-type: none;
     overflow: auto;
     background-color: #3C3B6E;
