@@ -8,7 +8,7 @@ header {
 }
 
 ul {
-    padding: 20px;
+    padding: 15px;
     list-style-type: none;
     overflow: auto;
     background-color: #3C3B6E;
@@ -20,7 +20,7 @@ li {
     padding: 15px 0px;
 }
 
-.menu li a{
+.menu li a {
     display: block;
     color: white;
     text-align: center;
@@ -32,3 +32,6 @@ li {
     background-color: #B22234;
 }
 
+.menu-item {
+    margin-right: 10px;
+}
