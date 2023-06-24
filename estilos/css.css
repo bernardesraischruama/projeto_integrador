@@ -4,22 +4,16 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-	display: flex;
-	flex-wrap: wrap;
-	flex: 1 1 100vw;
-}
-
-header, nav, main, aside, footer {
-	background: #a1a1a1;
-	display: flex;
+.container{
+    max-width: 830px;
+    margin: auto;
 }
 
 header {
+	display: flex;
 	flex: 1 1 100vw;
 	height: 100px;
     background-color: #B22234;
@@ -47,6 +41,7 @@ header #logo {
 }
 
 nav {
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex: 1 1 100%;
@@ -73,25 +68,122 @@ nav li {
     margin: 0 25px;
 }
 
-main {
-	margin: 3px;
-	flex: 20 1 500px;
-	height: calc(100vw - 224px);
+.section-1{
+    display: flex;
+    margin-top: 100px;
 }
 
-aside {
-	margin: 3px;
-	flex: 1 1 200px;
+.action-title h2{
+    font-size: 30px;
 }
 
-footer {
-	margin: 7px 3px 3px;
-	flex: 1 1 100vw;
-	height: 100px;
+.button{
+    background-color: #3C3B6E;
+	color: white;
+    display: inline-block;
+    padding: 15px 70px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+	margin-top: 30px;
+}
+
+.ebook img{
+    width: 230px;
+    height: auto;
+    margin-right: 50px;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 180px;
+}
+
+.section-2 h2{
+    text-transform: uppercase;
     text-align: center;
-    padding: 10px;
-    font-size: 12px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333333;
+	color: white;
+    width: 220px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 65px;
+    height: 65px;
+	margin-bottom: 15px;
+}
+
+.section-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.button-2{
+    display: inline-block;
+    background-color: #3C3B6E;
+	color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.section-3 h2{
+    font-size: 48px;
+    color: #B22234;
+	margin: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #B22234;
+    height: 100px;
+    padding-bottom: 40px;
+}
+
+.button-footer{
+    display: inline-block;
+    padding: 15px 70px;
+    background-color: #3C3B6E;
+	color: white;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: -40px;
+}
+
+footer p{
+    font-size: 14px;
+    margin-top: 30px;
+	color: white;
 }
 
 @media only screen and (max-width: 717px) {
@@ -107,11 +199,6 @@ footer {
 		position: fixed;
 		right: 15px;
 		top: 15px;
-	}
-
-	aside {
-		flex: 1 1 100vw;
-		height: 100px;
 	}
 
 	nav {
