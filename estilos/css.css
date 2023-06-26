@@ -153,16 +153,16 @@ nav li {
     display: inline-block;
     background-color: #3C3B6E;
 	color: white;
+    text-decoration: none;
     padding: 15px 30px;
     border-radius: 50px;
     font-weight: bold;
     margin-bottom: 8px;
 }
 
-.section-3 h2 a{
+.section-3 h2 {
     font-size: 48px;
     color: #B22234;
-    text-decoration: none;
 }
 
 .section-3 p {

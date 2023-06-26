@@ -84,6 +84,7 @@ main p {
     text-align: justify;
     margin-bottom: 20px;
     line-height: 1.5;
+    text-indent: 4em;
 }
 
 main h1, h2 {
@@ -93,7 +94,7 @@ main h1, h2 {
 main h1 {
     font-size: 18pt;
     font-weight: bold;
-    margin: 10% 30% 20px;
+    margin: 6% 30% 20px;
 }
 
 main h2 {
