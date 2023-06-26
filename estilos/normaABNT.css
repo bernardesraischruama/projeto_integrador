@@ -19,12 +19,18 @@ header {
 }
 
 header #logo {
-    display: flex;
-    flex: 0 1 200px;
-    background: #c9c9c9;
-    margin-right: 2%;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex: 0 1 200px;
+	margin-right: 2%;
+	justify-content: center;
+	align-items: center;
+}
+
+header #logo img {
+    width:100px;
+    height: auto;
+    position: relative ;
+    top: 5px;
 }
 
 #openMenu, #closeMenu {
