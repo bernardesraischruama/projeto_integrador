@@ -5,9 +5,10 @@
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
 }
 
-header {
+.cabecalho {
     display: flex;
     flex: 1 1 100vw;
     height: 120px;
@@ -16,7 +17,7 @@ header {
     align-items: center;
 }
 
-header #logo {
+.logo {
 	display: flex;
 	flex: 0 1 200px;
 	margin-right: 2%;
@@ -24,7 +25,7 @@ header #logo {
 	align-items: center;
 }
 
-header #logo img {
+.logo-imagem {
     width:100px;
     height: auto;
     position: relative ;
@@ -41,34 +42,31 @@ header #logo img {
     display: none;
 }
 
-nav {
+.nav {
 	display: flex;
 	height: 80px;
     background-color: #3C3B6E;
+    margin-bottom: 100px;
 }
 
 .nav-menu {
     display: flex;
     align-items: center;
     margin-left: 2%;
-}
-
-.nav-menu a {
     font-size: 1.5em;
     font-weight: bold;
+    color: white;
 }
 
-
-nav a {
+.nav-link {
     margin: 0 2%;
     font-size: 0.9em;
     white-space: nowrap;
     color: white;
     font-weight: 400;
-    text-decoration: none;
 }
 
-nav ul {
+.nav-lista {
     display: flex;
     list-style: none;
     justify-content: center;
@@ -76,59 +74,61 @@ nav ul {
     align-items: center;
 }
 
-nav li {
+.nav-item {
     margin: 0 25px;
 }
 
-main {
-    margin-bottom: 100px;
+.conteudo { 
+    margin: auto;
+    display: block;
+    max-width: 600px;
 }
 
-main * {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 30% 0;
-}
-
-main p {
+.conteudo-paragrafo {
     text-align: justify;
     margin-bottom: 20px;
     line-height: 1.5;
     text-indent: 4em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-main p a {
+.referencia {
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.referencia-link {
     display: inline-block;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
-main h1, h2 {
-    margin-bottom: 10px;
-}
-
-main h1 {
+.conteudo-titulo {
     font-size: 18pt;
     font-weight: bold;
-    margin: 6% 30% 20px;
+    margin: 6% 0 20px;
 }
 
-main h2 {
+.conteudo-subtitulo {
     font-size: 16pt;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
-
-footer{
+.rodape {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #B22234;
-    height: 100px;
-    padding-bottom: 40px;
+    padding: 50px;
+    margin-top: 100px;
 }
 
-.button-footer{
+.botao-rodape {
     display: inline-block;
     padding: 15px 70px;
     background-color: #3C3B6E;
@@ -136,11 +136,10 @@ footer{
     border-radius: 50px;
     text-transform: uppercase;
     font-weight: bold;
-    text-decoration: none;
-    margin-top: -40px;
+    margin-top: -70px;
 }
 
-footer p{
+.rodape-paragrafo {
     font-size: 14px;
     margin-top: 30px;
 	color: white;
