@@ -9,27 +9,19 @@
 }
 
 .cabecalho {
-    display: flex;
-    flex: 1 1 100vw;
-    height: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+    padding: 20px 0;
     background-color: #B22234;
     color: white;
     align-items: center;
 }
 
-.logo {
-	display: flex;
-	flex: 0 1 200px;
-	margin-right: 2%;
-	justify-content: center;
-	align-items: center;
-}
-
 .logo-imagem {
-    width:100px;
+    margin: auto;
+    display: block;
+    width: 84px;
     height: auto;
-    position: relative ;
-    top: 2px;
 }
 
 #openMenu, #closeMenu {
@@ -43,39 +35,31 @@
 }
 
 .nav {
-	display: flex;
-	height: 80px;
+	display: grid;
+    grid-template-columns: 1fr 7fr;
+	padding: 25px;
     background-color: #3C3B6E;
-    margin-bottom: 100px;
 }
 
 .nav-menu {
-    display: flex;
-    align-items: center;
-    margin-left: 2%;
     font-size: 1.5em;
     font-weight: bold;
     color: white;
 }
 
 .nav-link {
-    margin: 0 2%;
     font-size: 0.9em;
-    white-space: nowrap;
     color: white;
     font-weight: 400;
+    margin-right: 5px;
 }
 
 .nav-lista {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     list-style: none;
     justify-content: center;
-    flex: 1 1 100%;
     align-items: center;
-}
-
-.nav-item {
-    margin: 0 25px;
 }
 
 .conteudo-index {
@@ -85,8 +69,9 @@
 }
 
 .section-1{
-    display: flex;
-    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15%;
 }
 
 .action-title h2{
@@ -107,17 +92,15 @@
 }
 
 .ebook img{
-    width: 230px;
+    width: 70%;
     height: auto;
     margin-right: 50px;
 }
 
 .section-2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 50px;
-    margin-top: 180px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 15%;
 }
 
 .section-2 h2{
@@ -126,16 +109,16 @@
 }
 
 .cards{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 5%;
 }
 
 .card{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     align-items: center;
     background-color: #333333;
 	color: white;
@@ -147,7 +130,12 @@
 .card img{
     width: 65px;
     height: 65px;
-	margin-bottom: 15px;
+	margin: auto;
+    display: block;
+}
+
+.card p {
+    text-align: center;
 }
 
 .section-3{
@@ -278,4 +266,13 @@
 	nav a {
 		margin: 3%;
 	}
+}
+
+@media only screen and (max-width: 670px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 20px;
+    }
 }
