@@ -155,16 +155,12 @@
     padding: 15px 30px;
     border-radius: 50px;
     font-weight: bold;
-    margin-bottom: 8px;
+    margin-top: 12px
 }
 
 .section-3 h2 {
     font-size: 48px;
     color: #B22234;
-}
-
-.section-3 p {
-    margin-top: 10px;
 }
 
 .conteudo { 
@@ -221,17 +217,6 @@
     background-color: #B22234;
     padding: 50px;
     margin-top: 100px;
-}
-
-.botao-rodape {
-    display: inline-block;
-    padding: 15px 70px;
-    background-color: #3C3B6E;
-	color: white;
-    border-radius: 50px;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: -70px;
 }
 
 .rodape-paragrafo {
