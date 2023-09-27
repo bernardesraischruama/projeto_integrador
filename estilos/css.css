@@ -181,6 +181,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.exemplo {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 8px;
+}
+
 .referencia {
     text-align: justify;
     margin-bottom: 20px;
