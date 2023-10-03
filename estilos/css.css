@@ -114,6 +114,7 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 5%;
+    text-decoration: none;
 }
 
 .card{
@@ -125,6 +126,7 @@
     width: 220px;
     height: 180px;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 .card img{
