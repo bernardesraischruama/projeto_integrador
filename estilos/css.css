@@ -74,7 +74,7 @@
     margin-top: 15%;
 }
 
-.action-title h2{
+.action-title h3 {
     font-size: 30px;
 }
 
@@ -114,10 +114,10 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 5%;
-    text-decoration: none;
+    list-style-type: none;
 }
 
-.card{
+.card {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
@@ -126,7 +126,7 @@
     width: 220px;
     height: 180px;
     border-radius: 10px;
-    text-decoration: none;
+    list-style-type: none;
 }
 
 .card img{
@@ -160,7 +160,7 @@
     margin-top: 12px
 }
 
-.section-3 h2 {
+.section-3 h1 {
     font-size: 48px;
     color: #B22234;
 }
