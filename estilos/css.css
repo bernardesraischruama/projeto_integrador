@@ -90,6 +90,13 @@
     text-decoration: none;
 	margin-top: 30px;
 }
+.figure1{
+margin: 0 10px 20px;
+width: 50%;
+height: 20%;
+float: none;
+padding: 10px;
+}
 
 .ebook img{
     width: 70%;
