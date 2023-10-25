@@ -24,7 +24,8 @@
     height: auto;
 }
 
-#openMenu, #closeMenu {
+#openMenu,
+#closeMenu {
     border: none;
     background: none;
     font-size: 30px;
@@ -35,9 +36,9 @@
 }
 
 .nav {
-	display: grid;
+    display: grid;
     grid-template-columns: 1fr 7fr;
-	padding: 25px;
+    padding: 25px;
     background-color: #3C3B6E;
 }
 
@@ -68,7 +69,7 @@
     max-width: 700px;
 }
 
-.section-1{
+.section-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 15%;
@@ -78,9 +79,9 @@
     font-size: 30px;
 }
 
-.button{
+.button {
     background-color: #3C3B6E;
-	color: white;
+    color: white;
     display: inline-block;
     padding: 15px 70px;
     border-radius: 50px;
@@ -88,34 +89,33 @@
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
-	margin-top: 30px;
-}
-.figure1{
-margin: 0 10px 20px;
-width: 50%;
-height: 20%;
-float: none;
-padding: 10px;
+    margin-top: 30px;
 }
 
-.ebook img{
+.figure1 img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.ebook img {
     width: 70%;
     height: auto;
     margin-right: 50px;
 }
 
-.section-2{
+.section-2 {
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 15%;
 }
 
-.section-2 h2{
+.section-2 h2 {
     text-transform: uppercase;
     text-align: center;
 }
 
-.cards{
+.cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
@@ -129,17 +129,17 @@ padding: 10px;
     grid-template-columns: 1fr;
     align-items: center;
     background-color: #333333;
-	color: white;
+    color: white;
     width: 220px;
     height: 180px;
     border-radius: 10px;
     list-style-type: none;
 }
 
-.card img{
+.card img {
     width: 65px;
     height: 65px;
-	margin: auto;
+    margin: auto;
     display: block;
 }
 
@@ -147,7 +147,7 @@ padding: 10px;
     text-align: center;
 }
 
-.section-3{
+.section-3 {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -156,10 +156,10 @@ padding: 10px;
     margin-bottom: 50px;
 }
 
-.button-2{
+.button-2 {
     display: inline-block;
     background-color: #3C3B6E;
-	color: white;
+    color: white;
     text-decoration: none;
     padding: 15px 30px;
     border-radius: 50px;
@@ -172,7 +172,7 @@ padding: 10px;
     color: #B22234;
 }
 
-.conteudo { 
+.conteudo {
     margin: auto;
     display: block;
     max-width: 600px;
@@ -231,41 +231,58 @@ padding: 10px;
 .rodape-paragrafo {
     font-size: 14px;
     margin-top: 30px;
-	color: white;
+    color: white;
 }
 
 @media only screen and (max-width: 717px) {
-	#openMenu, #closeMenu {
-		display: block;
-	}
 
-	#openMenu {
-		margin-left: auto;
-	}
+    #openMenu,
+    #closeMenu {
+        display: block;
+    }
 
-	#closeMenu {
-		position: fixed;
-		right: 15px;
-		top: 15px;
-	}
+    #openMenu {
+        margin-left: auto;
+    }
 
-	nav {
-		position: fixed;
-		width: 100vw;
-		height: 100vh;
-		background: rgba(255, 255, 255, 0.8);
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		margin: 0;
-		display: none;
-		opacity: 0;
-		transition: 0.3s;
-	}
+    #closeMenu {
+        position: fixed;
+        right: 15px;
+        top: 15px;
+    }
 
-	nav a {
-		margin: 3%;
-	}
+    nav {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(255, 255, 255, 0.8);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        display: none;
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    nav a {
+        margin: 3%;
+    }
+
+    .action-title h3 {
+        font-size: 25px;
+        margin-right: 5px;
+    }
+
+    .ebook img {
+        width: 70%;
+        height: auto;
+        margin: 0 20px 0 15px;
+    }
+
+    .button {
+        margin-right: 5px;
+    }
 }
 
 @media only screen and (max-width: 670px) {
@@ -274,5 +291,18 @@ padding: 10px;
         grid-template-columns: 1fr;
         justify-items: center;
         row-gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .conteudo {
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .figure1 img {
+        width: 100%;
+        height: auto;
     }
 }
